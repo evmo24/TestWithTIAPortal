@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2025-01-08T13:55:33.2491207Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V17 Update2</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V17 Update2</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G110M, G120, G120C, G120D, G120P, G115D</DisplayName>
+        <DisplayVersion>V17 Update2</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
+      <DBAccessibleFromWebserver>true</DBAccessibleFromWebserver>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="DataFromHSM" Datatype="&quot;DataFromHSM&quot;" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="Sts" Datatype="Struct"><Comment><MultiLanguageText Lang="en-US">Status From HSM</MultiLanguageText></Comment><Member Name="xStop" Datatype="Bool" /><Member Name="xRun" Datatype="Bool" /><Member Name="xService" Datatype="Bool" /><Member Name="xTeach" Datatype="Bool" /><Member Name="xFeed" Datatype="Bool" /><Member Name="xConfigurationSave" Datatype="Bool" /><Member Name="xConfigurationLoad" Datatype="Bool" /><Member Name="xReceiveConfiguration" Datatype="Bool" /><Member Name="xCParameterSend" Datatype="Bool" /><Member Name="xCParameterReceive" Datatype="Bool" /><Member Name="xMparameterSend" Datatype="Bool" /><Member Name="xMparameterReceive" Datatype="Bool" /><Member Name="xReserved" Datatype="Bool" /><Member Name="xGetTime" Datatype="Bool" /><Member Name="xGet_MAC_FW_version" Datatype="Bool" /><Member Name="xStatusContinuouslyTransmitted" Datatype="Bool" /><Member Name="xCommunicationMonitoring" Datatype="Bool" /><Member Name="x AcknowledgeFaultFromExternal" Datatype="Bool" /><Member Name="xBlockProductSensor" Datatype="Bool" /><Member Name="xSplice_Start" Datatype="Bool" /><Member Name="xReserved_25" Datatype="Bool" /><Member Name="xReserved_24" Datatype="Bool" /><Member Name="xReserved_23" Datatype="Bool" /><Member Name="xReserved_22" Datatype="Bool" /><Member Name="xReserved_21" Datatype="Bool" /><Member Name="xReserved_20" Datatype="Bool" /><Member Name="xReserved_19" Datatype="Bool" /><Member Name="xReserved_18" Datatype="Bool" /><Member Name="xReserved_17" Datatype="Bool" /><Member Name="xReserved_16" Datatype="Bool" /><Member Name="xReserved_15" Datatype="Bool" /><Member Name="xReserved_14" Datatype="Bool" /><Member Name="xDeviceStatusOK" Datatype="Bool" /><Member Name="xDeviceStatusWarning" Datatype="Bool" /><Member Name="xDeviceStatusAlarm" Datatype="Bool" /><Member Name="xPauseRun" Datatype="Bool" /><Member Name="xPauseStandby" Datatype="Bool" /><Member Name="xPauseService" Datatype="Bool" /><Member Name="xLampAlarm" Datatype="Bool" /><Member Name="xLampOK" Datatype="Bool" /><Member Name="xLampWarning" Datatype="Bool" /><Member Name="xIO-Warning" Datatype="Bool" /><Member Name="xIO-Ready" Datatype="Bool" /><Member Name="xIO-Sync" Datatype="Bool" /><Member Name="xSync2" Datatype="Bool" /><Member Name="xSync3" Datatype="Bool" /><Member Name="xLabelSensor" Datatype="Bool" /><Member Name="xProductSensorPolarity" Datatype="Bool" /><Member Name="xLowLabelSensor" Datatype="Bool" /><Member Name="xWebBreakSensor" Datatype="Bool" /><Member Name="xExternalStart" Datatype="Bool" /><Member Name="xSpliceActive" Datatype="Bool" /><Member Name="xReserved_12" Datatype="Bool" /><Member Name="xReserved_11" Datatype="Bool" /><Member Name="xReserved_10" Datatype="Bool" /><Member Name="xReserved_09" Datatype="Bool" /><Member Name="xReserved_08" Datatype="Bool" /><Member Name="xReserved_07" Datatype="Bool" /><Member Name="xReserved_06" Datatype="Bool" /><Member Name="xReserved_05" Datatype="Bool" /><Member Name="xReserved_04" Datatype="Bool" /><Member Name="xReserved_03" Datatype="Bool" /><Member Name="xReserved_02" Datatype="Bool" /><Member Name="xReserved_01" Datatype="Bool" /><Member Name="iLabelCounter" Datatype="Int" /><Member Name="iCounterRemaining" Datatype="Int" /><Member Name="iMcurr" Datatype="Int" /><Member Name="wExtEncoder" Datatype="Word" /><Member Name="wErrorCode" Datatype="Word" /><Member Name="wWarnNr" Datatype="Word" /><Member Name="iReserved_W1" Datatype="Int" /><Member Name="iReserved_W2" Datatype="Int" /><Member Name="iReserved_W3" Datatype="Int" /><Member Name="iReserved_W4" Datatype="Int" /><Member Name="iReserved_W5" Datatype="Int" /><Member Name="iReserved_W6" Datatype="Int" /></Member><Member Name="Cfg" Datatype="Struct"><Comment><MultiLanguageText Lang="en-US">Configuration Parameters Receive</MultiLanguageText></Comment><Member Name="iLabellingSpeed" Datatype="Int" /><Member Name="iTriggerDelay" Datatype="Int" /><Member Name="iLabelPosition" Datatype="Int" /><Member Name="iLabelLenght" Datatype="Int" /><Member Name="iLabelGap" Datatype="Int" /><Member Name="iLabelsBurst" Datatype="Int" /><Member Name="iDistanceBetweenLabels" Datatype="Int" /><Member Name="iMaxNumberOfLabelsToSkip" Datatype="Int" /><Member Name="iTriggerBlank" Datatype="Int" /><Member Name="iAccelerationRamp" Datatype="Int" /><Member Name="iSpeedInternalEncoder" Datatype="Int" /><Member Name="iStopRamp" Datatype="Int" /><Member Name="iSyncOutputDelay" Datatype="Int" /><Member Name="iSyncOutputLength" Datatype="Int" /><Member Name="iSyncOutputDelay2" Datatype="Int" /><Member Name="iSyncOutputLenght_2" Datatype="Int" /><Member Name="iSyncOutputDelay_3" Datatype="Int" /><Member Name="iSyncOutputLenght_3" Datatype="Int" /><Member Name="iPreFeed" Datatype="Int" /><Member Name="iConveyorSpeed_1" Datatype="Int" /><Member Name="iConveyorSpeed_2" Datatype="Int" /><Member Name="iReserved_11" Datatype="Int" /><Member Name="iReserved_10" Datatype="Int" /><Member Name="iReserved_09" Datatype="Int" /><Member Name="iReserved_08" Datatype="Int" /><Member Name="iReserved_07" Datatype="Int" /><Member Name="iReserved_06" Datatype="Int" /><Member Name="iReserved_05" Datatype="Int" /><Member Name="iReserved_04" Datatype="Int" /><Member Name="iReserved_03" Datatype="Int" /><Member Name="iReserved_02" Datatype="Int" /><Member Name="iReserved_01" Datatype="Int" /></Member><Member Name="M_Par" Datatype="Struct"><Comment><MultiLanguageText Lang="en-US">Machine Parameters Receive</MultiLanguageText></Comment><Member Name="iSpeedInternalEncoder" Datatype="Int" /><Member Name="iEncoderMMPerRevolution" Datatype="Int" /><Member Name="iEncoderPulsesPerRevolution" Datatype="Int" /><Member Name="iMaximumSpeed" Datatype="Int" /><Member Name="iInstallationMode" Datatype="Int" /><Member Name="iLabelLengthInMMPerMotorRevolution" Datatype="Int" /><Member Name="iDistanceGapSensorToDispensingEdge" Datatype="Int" /><Member Name="iProductSensorPolarity" Datatype="Int" /><Member Name="iSkipMode_1" Datatype="Int" /><Member Name="iMaxLabelSkip" Datatype="Int" /><Member Name="iAccelerationMode" Datatype="Int" /><Member Name="iAcceleration" Datatype="Int" /><Member Name="iGapSensor" Datatype="Int" /><Member Name="iMaxCalibrationLength" Datatype="Int" /><Member Name="iDecelarationMode" Datatype="Int" /><Member Name="iDecelaration" Datatype="Int" /><Member Name="iExernalStart" Datatype="Int" /><Member Name="iLowLabelInput" Datatype="Int" /><Member Name="iBeltInput_1" Datatype="Int" /><Member Name="iSyncParameter_1" Datatype="Int" /><Member Name="iSyncOutputDelay" Datatype="Int" /><Member Name="iSyncOutputLength" Datatype="Int" /><Member Name="iZeroDownTimeMode_1" Datatype="Int" /><Member Name="iZeroDownTimeSensorDistance" Datatype="Int" /><Member Name="iLabelLengthInCaseOfErrorOnLowLabelSensor" Datatype="Int" /><Member Name="iLowLabelSensorPolarity" Datatype="Int" /><Member Name="iWebBreakSensorPolarity" Datatype="Int" /><Member Name="iWarningOutputPolarity_1" Datatype="Int" /><Member Name="iSync2Parameter_1" Datatype="Int" /><Member Name="iSync2OutputDelay_1" Datatype="Int" /><Member Name="iSync2OutputPulseLength_1" Datatype="Int" /><Member Name="iSync3Parameter_1" Datatype="Int" /><Member Name="iSync3OutputDelay_1" Datatype="Int" /><Member Name="iSync3OutputPulseLength_1" Datatype="Int" /><Member Name="iTeachTolerance" Datatype="Int" /><Member Name="iSynch1Mode_1" Datatype="Int" /><Member Name="iSynch2Mode_1" Datatype="Int" /><Member Name="iSynch3Mode_1" Datatype="Int" /><Member Name="iOvercurrentCorrection" Datatype="Int" /><Member Name="iServiceFeedSpeed" Datatype="Int" /><Member Name="iPreDispensingMode" Datatype="Int" /><Member Name="iPreDispensingLength" Datatype="Int" /><Member Name="iLabelSensorWindowPreDispensingPath" Datatype="Int" /><Member Name="iLabelSensorCount" Datatype="Int" /><Member Name="iSPS-Mode_1" Datatype="Int" /><Member Name="iZdtWin_1" Datatype="Int" /><Member Name="iDistRes_1" Datatype="Int" /><Member Name="iSPS-DB-NoCtrl_1" Datatype="Int" /><Member Name="iSPS-DB-NoStat_1" Datatype="Int" /><Member Name="iSignalFormat_1" Datatype="Int" /><Member Name="iLowLabDiam_1" Datatype="Int" /><Member Name="iCoreDiameter_1" Datatype="Int" /><Member Name="iWebBreakRest_1" Datatype="Int" /><Member Name="iLeverSetup_1" Datatype="Int" /><Member Name="iLeverMinPos_1" Datatype="Int" /><Member Name="iLeverMaxPos_1" Datatype="Int" /><Member Name="iUW-BufLength_1" Datatype="Int" /><Member Name="iTwinLabelMd_1" Datatype="Int" /><Member Name="iLabelQueTolerans" Datatype="Int" /><Member Name="iResetEvents" Datatype="Int" /><Member Name="iMaintenanceDistanceKm" Datatype="Int" /><Member Name="iMaintenanceDays" Datatype="Int" /><Member Name="iProductSensorMode" Datatype="Int" /><Member Name="iRewinderDiameterWarning" Datatype="Int" /><Member Name="arrayFirmwareVersion_1" Datatype="Array[0..19] of Char" /><Member Name="arrayCfg_MAC-Adress_1" Datatype="Array[0..19] of Char" /><Member Name="iRewinderDiameterFull" Datatype="Int" /><Member Name="iMotorLoadLimit" Datatype="Int" /><Member Name="iCountorRamp" Datatype="Int" /><Member Name="iEncoderOutPulsMM" Datatype="Int" /><Member Name="iSPS_RackAndSlot" Datatype="Int" /><Member Name="iSpliceDistance" Datatype="Int" /><Member Name="iSpliceSpeedReduction" Datatype="Int" /><Member Name="iDownstream" Datatype="Int" /><Member Name="iSpeedFactor" Datatype="Int" /><Member Name="iAcceleration_1" Datatype="Int" /><Member Name="iSpeedOffset" Datatype="Int" /><Member Name="iMaterialTransportErrorMode" Datatype="Int" /><Member Name="iEncoderFactor" Datatype="Int" /><Member Name="iReserve_1" Datatype="Int" /><Member Name="iReserve_2" Datatype="Int" /><Member Name="iReserve_3" Datatype="Int" /><Member Name="iReserve_4" Datatype="Int" /><Member Name="iReserve_5" Datatype="Int" /><Member Name="iReserve_6" Datatype="Int" /><Member Name="iReserve_7" Datatype="Int" /><Member Name="iReserve_8" Datatype="Int" /><Member Name="iReserve_9" Datatype="Int" /><Member Name="iReserve_10" Datatype="Int" /><Member Name="iReserve_11" Datatype="Int" /><Member Name="iReserve_12" Datatype="Int" /><Member Name="iReserve_13" Datatype="Int" /><Member Name="iReserve_14" Datatype="Int" /><Member Name="iReserve_15" Datatype="Int" /><Member Name="iReserve_16" Datatype="Int" /><Member Name="iReserve_17" Datatype="Int" /><Member Name="iReserve_18" Datatype="Int" /><Member Name="iReserve_19" Datatype="Int" /><Member Name="iReserve_20" Datatype="Int" /><Member Name="iReserve_21" Datatype="Int" /><Member Name="iReserve_22" Datatype="Int" /><Member Name="iReserve_23" Datatype="Int" /><Member Name="iReserve_24" Datatype="Int" /><Member Name="iReserve_25" Datatype="Int" /><Member Name="iReserve_26" Datatype="Int" /><Member Name="iReserve_27" Datatype="Int" /><Member Name="iReserve_28" Datatype="Int" /><Member Name="iReserve_29" Datatype="Int" /><Member Name="iReserve_30" Datatype="Int" /><Member Name="iReserve_31" Datatype="Int" /><Member Name="iReserve_32" Datatype="Int" /><Member Name="iReserve_33" Datatype="Int" /><Member Name="iReserve_34" Datatype="Int" /><Member Name="iReserve_35" Datatype="Int" /><Member Name="iReserve_36" Datatype="Int" /><Member Name="iReserve_37" Datatype="Int" /><Member Name="iReserve_38" Datatype="Int" /><Member Name="iReserve_39" Datatype="Int" /><Member Name="iReserve_40" Datatype="Int" /><Member Name="iReserve_41" Datatype="Int" /><Member Name="iReserve_42" Datatype="Int" /><Member Name="iReserve_43" Datatype="Int" /><Member Name="iReserve_44" Datatype="Int" /><Member Name="iReserve_45" Datatype="Int" /><Member Name="iReserve_46" Datatype="Int" /><Member Name="iReserve_47" Datatype="Int" /><Member Name="iReserve_48" Datatype="Int" /><Member Name="iReserve_49" Datatype="Int" /><Member Name="iReserve_50" Datatype="Int" /><Member Name="iReserve_51" Datatype="Int" /></Member></Section></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <IsOnlyStoredInLoadMemory>false</IsOnlyStoredInLoadMemory>
+      <IsWriteProtectedInAS>false</IsWriteProtectedInAS>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>DB - HSM_Zon2_From</Name>
+      <Number>68</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

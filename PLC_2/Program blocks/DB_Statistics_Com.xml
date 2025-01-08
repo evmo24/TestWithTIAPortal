@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V17" />
+  <DocumentInfo>
+    <Created>2025-01-08T13:55:33.7878724Z</Created>
+    <ExportSetting>WithDefaults</ExportSetting>
+    <InstalledProducts>
+      <Product>
+        <DisplayName>Totally Integrated Automation Portal</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>TIA Portal Openness</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>TIA Portal Version Control Interface</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>SINAMICS Startdrive Advanced</DisplayName>
+        <DisplayVersion>V17 Update2</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G130, G150, S120, S150, SINAMICS MV, S210</DisplayName>
+        <DisplayVersion>V17 Update2</DisplayVersion>
+      </OptionPackage>
+      <OptionPackage>
+        <DisplayName>SINAMICS Startdrive G110M, G120, G120C, G120D, G120P, G115D</DisplayName>
+        <DisplayVersion>V17 Update2</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>STEP 7 Professional</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+      <OptionPackage>
+        <DisplayName>STEP 7 Safety</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </OptionPackage>
+      <Product>
+        <DisplayName>WinCC Advanced</DisplayName>
+        <DisplayVersion>V17</DisplayVersion>
+      </Product>
+    </InstalledProducts>
+  </DocumentInfo>
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>true</AutoNumber>
+      <DBAccessibleFromOPCUA>true</DBAccessibleFromOPCUA>
+      <DBAccessibleFromWebserver>true</DBAccessibleFromWebserver>
+      <HeaderAuthor />
+      <HeaderFamily />
+      <HeaderName />
+      <HeaderVersion>0.1</HeaderVersion>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="Stat" Datatype="&quot;UDT_Subsystem_Utility&quot;" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList><Sections><Section Name="None"><Member Name="Lifebit" Datatype="Bool" /><Member Name="Fault" Datatype="Bool" /><Member Name="active" Datatype="Bool" /><Member Name="in_progress" Datatype="Bool" /><Member Name="EStop" Datatype="Bool" /><Member Name="General05" Datatype="Bool" /><Member Name="General06" Datatype="Bool" /><Member Name="General07" Datatype="Bool" /><Member Name="General08" Datatype="Bool" /><Member Name="General09" Datatype="Bool" /><Member Name="General10" Datatype="Bool" /><Member Name="General11" Datatype="Bool" /><Member Name="General12" Datatype="Bool" /><Member Name="General13" Datatype="Bool" /><Member Name="General14" Datatype="Bool" /><Member Name="General15" Datatype="Bool" /><Member Name="Status00" Datatype="Bool" /><Member Name="Status01" Datatype="Bool" /><Member Name="Status02" Datatype="Bool" /><Member Name="Status03" Datatype="Bool" /><Member Name="Status04" Datatype="Bool" /><Member Name="Status05" Datatype="Bool" /><Member Name="Status06" Datatype="Bool" /><Member Name="Status07" Datatype="Bool" /><Member Name="Status08" Datatype="Bool" /><Member Name="Status09" Datatype="Bool" /><Member Name="Status10" Datatype="Bool" /><Member Name="Status11" Datatype="Bool" /><Member Name="Status12" Datatype="Bool" /><Member Name="Status13" Datatype="Bool" /><Member Name="Status14" Datatype="Bool" /><Member Name="Status15" Datatype="Bool" /><Member Name="Status16" Datatype="Bool" /><Member Name="Status17" Datatype="Bool" /><Member Name="Status18" Datatype="Bool" /><Member Name="Status19" Datatype="Bool" /><Member Name="Status20" Datatype="Bool" /><Member Name="Status21" Datatype="Bool" /><Member Name="Status22" Datatype="Bool" /><Member Name="Status23" Datatype="Bool" /><Member Name="Status24" Datatype="Bool" /><Member Name="Status25" Datatype="Bool" /><Member Name="Status26" Datatype="Bool" /><Member Name="Status27" Datatype="Bool" /><Member Name="Status28" Datatype="Bool" /><Member Name="Status29" Datatype="Bool" /><Member Name="Status30" Datatype="Bool" /><Member Name="Status31" Datatype="Bool" /><Member Name="Alarm000" Datatype="Bool" /><Member Name="Alarm001" Datatype="Bool" /><Member Name="Alarm002" Datatype="Bool" /><Member Name="Alarm003" Datatype="Bool" /><Member Name="Alarm004" Datatype="Bool" /><Member Name="Alarm005" Datatype="Bool" /><Member Name="Alarm006" Datatype="Bool" /><Member Name="Alarm007" Datatype="Bool" /><Member Name="Alarm008" Datatype="Bool" /><Member Name="Alarm009" Datatype="Bool" /><Member Name="Alarm010" Datatype="Bool" /><Member Name="Alarm011" Datatype="Bool" /><Member Name="Alarm012" Datatype="Bool" /><Member Name="Alarm013" Datatype="Bool" /><Member Name="Alarm014" Datatype="Bool" /><Member Name="Alarm015" Datatype="Bool" /><Member Name="Alarm016" Datatype="Bool" /><Member Name="Alarm017" Datatype="Bool" /><Member Name="Alarm018" Datatype="Bool" /><Member Name="Alarm019" Datatype="Bool" /><Member Name="Alarm020" Datatype="Bool" /><Member Name="Alarm021" Datatype="Bool" /><Member Name="Alarm022" Datatype="Bool" /><Member Name="Alarm023" Datatype="Bool" /><Member Name="Alarm024" Datatype="Bool" /><Member Name="Alarm025" Datatype="Bool" /><Member Name="Alarm026" Datatype="Bool" /><Member Name="Alarm027" Datatype="Bool" /><Member Name="Alarm028" Datatype="Bool" /><Member Name="Alarm029" Datatype="Bool" /><Member Name="Alarm030" Datatype="Bool" /><Member Name="Alarm031" Datatype="Bool" /><Member Name="Alarm032" Datatype="Bool" /><Member Name="Alarm033" Datatype="Bool" /><Member Name="Alarm034" Datatype="Bool" /><Member Name="Alarm035" Datatype="Bool" /><Member Name="Alarm036" Datatype="Bool" /><Member Name="Alarm037" Datatype="Bool" /><Member Name="Alarm038" Datatype="Bool" /><Member Name="Alarm039" Datatype="Bool" /><Member Name="Alarm040" Datatype="Bool" /><Member Name="Alarm041" Datatype="Bool" /><Member Name="Alarm042" Datatype="Bool" /><Member Name="Alarm043" Datatype="Bool" /><Member Name="Alarm044" Datatype="Bool" /><Member Name="Alarm045" Datatype="Bool" /><Member Name="Alarm046" Datatype="Bool" /><Member Name="Alarm047" Datatype="Bool" /><Member Name="Alarm048" Datatype="Bool" /><Member Name="Alarm049" Datatype="Bool" /><Member Name="Alarm050" Datatype="Bool" /><Member Name="Alarm051" Datatype="Bool" /><Member Name="Alarm052" Datatype="Bool" /><Member Name="Alarm053" Datatype="Bool" /><Member Name="Alarm054" Datatype="Bool" /><Member Name="Alarm055" Datatype="Bool" /><Member Name="Alarm056" Datatype="Bool" /><Member Name="Alarm057" Datatype="Bool" /><Member Name="Alarm058" Datatype="Bool" /><Member Name="Alarm059" Datatype="Bool" /><Member Name="Alarm060" Datatype="Bool" /><Member Name="Alarm061" Datatype="Bool" /><Member Name="Alarm062" Datatype="Bool" /><Member Name="Alarm063" Datatype="Bool" /><Member Name="Alarm064" Datatype="Bool" /><Member Name="Alarm065" Datatype="Bool" /><Member Name="Alarm066" Datatype="Bool" /><Member Name="Alarm067" Datatype="Bool" /><Member Name="Alarm068" Datatype="Bool" /><Member Name="Alarm069" Datatype="Bool" /><Member Name="Alarm070" Datatype="Bool" /><Member Name="Alarm071" Datatype="Bool" /><Member Name="Alarm072" Datatype="Bool" /><Member Name="Alarm073" Datatype="Bool" /><Member Name="Alarm074" Datatype="Bool" /><Member Name="Alarm075" Datatype="Bool" /><Member Name="Alarm076" Datatype="Bool" /><Member Name="Alarm077" Datatype="Bool" /><Member Name="Alarm078" Datatype="Bool" /><Member Name="Alarm079" Datatype="Bool" /><Member Name="Alarm080" Datatype="Bool" /><Member Name="Alarm081" Datatype="Bool" /><Member Name="Alarm082" Datatype="Bool" /><Member Name="Alarm083" Datatype="Bool" /><Member Name="Alarm084" Datatype="Bool" /><Member Name="Alarm085" Datatype="Bool" /><Member Name="Alarm086" Datatype="Bool" /><Member Name="Alarm087" Datatype="Bool" /><Member Name="Alarm088" Datatype="Bool" /><Member Name="Alarm089" Datatype="Bool" /><Member Name="Alarm090" Datatype="Bool" /><Member Name="Alarm091" Datatype="Bool" /><Member Name="Alarm092" Datatype="Bool" /><Member Name="Alarm093" Datatype="Bool" /><Member Name="Alarm094" Datatype="Bool" /><Member Name="Alarm095" Datatype="Bool" /><Member Name="Alarm096" Datatype="Bool" /><Member Name="Alarm097" Datatype="Bool" /><Member Name="Alarm098" Datatype="Bool" /><Member Name="Alarm099" Datatype="Bool" /><Member Name="Alarm100" Datatype="Bool" /><Member Name="Alarm101" Datatype="Bool" /><Member Name="Alarm102" Datatype="Bool" /><Member Name="Alarm103" Datatype="Bool" /><Member Name="Alarm104" Datatype="Bool" /><Member Name="Alarm105" Datatype="Bool" /><Member Name="Alarm106" Datatype="Bool" /><Member Name="Alarm107" Datatype="Bool" /><Member Name="Alarm108" Datatype="Bool" /><Member Name="Alarm109" Datatype="Bool" /><Member Name="Alarm110" Datatype="Bool" /><Member Name="Alarm111" Datatype="Bool" /><Member Name="Alarm112" Datatype="Bool" /><Member Name="Alarm113" Datatype="Bool" /><Member Name="Alarm114" Datatype="Bool" /><Member Name="Alarm115" Datatype="Bool" /><Member Name="Alarm116" Datatype="Bool" /><Member Name="Alarm117" Datatype="Bool" /><Member Name="Alarm118" Datatype="Bool" /><Member Name="Alarm119" Datatype="Bool" /><Member Name="Alarm120" Datatype="Bool" /><Member Name="Alarm121" Datatype="Bool" /><Member Name="Alarm122" Datatype="Bool" /><Member Name="Alarm123" Datatype="Bool" /><Member Name="Alarm124" Datatype="Bool" /><Member Name="Alarm125" Datatype="Bool" /><Member Name="Alarm126" Datatype="Bool" /><Member Name="Alarm127" Datatype="Bool" /><Member Name="OperatingHours" Datatype="DWord" /><Member Name="DownTimeHours" Datatype="DWord" /><Member Name="Speed" Datatype="Word" /><Member Name="Container_total" Datatype="DWord" /><Member Name="Container_good" Datatype="DWord" /><Member Name="Container_reject" Datatype="DWord" /><Member Name="Counter_06" Datatype="DWord" /><Member Name="Counter_07" Datatype="DWord" /><Member Name="Counter_08" Datatype="DWord" /><Member Name="Counter_09" Datatype="DWord" /><Member Name="Counter_10" Datatype="DWord" /><Member Name="Counter_11" Datatype="DWord" /><Member Name="Total_Amount" Datatype="Real" /><Member Name="Amount_01" Datatype="Real" /><Member Name="Amount_02" Datatype="Real" /><Member Name="Amount_03" Datatype="Real" /><Member Name="FormatName" Datatype="String[20]" /></Section></Sections></Member>
+  </Section>
+</Sections></Interface>
+      <IsOnlyStoredInLoadMemory>false</IsOnlyStoredInLoadMemory>
+      <IsWriteProtectedInAS>false</IsWriteProtectedInAS>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>DB_Statistics_Com</Name>
+      <Number>1</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>
